@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="uploadForm"> <input type="file" name="file" id="fileInput" /> </form>
+</body>
+</html>
+<script>
+// const form = document.getElementById('uploadForm'); form.addEventListener('submit', (e) => { e.preventDefault(); // Prevent the default form submission 
+//     const fileInput = document.getElementById('fileInput'); const file = fileInput.files[0]; // Get the selected file 
+//     if (file) { 
+//         uploadFile(file); 
+//     } else { 
+//         console.log('No file selected.'); 
+//     } 
+// }); 
+// function uploadFile(file) { 
+//     const formData = new FormData(); 
+//     formData.append('file', file); // Append the file to the FormData object 
+//     fetch('http://127.0.0.1:3000/upload', { 
+//         method: 'POST', 
+//         body: formData 
+//     }).then(response => {
+//             if(response.ok) {
+//                 console.log('File uploaded successfully!'); 
+//             }else { 
+//                 console.log('File upload failed.'); 
+//             } 
+//     }).catch(error => { 
+//         console.error('Error:', error); 
+//     }); 
+// }
+
+let fileUpload =  document.getElementById("file")
+fileUpload.addEventListener("change",()=>{
+
+    
+
+
+})
+</script>
